@@ -1,0 +1,239 @@
+// http://paulirish.com/2012/box-sizing-border-box-ftw
+* { box-sizing: border-box; }
+
+//FONTS
+body-copy = 'Monotype Bodoni W01'
+sans-bold = 'OCR A Extended W01'
+
+//COLORS
+dark-grey = #111111
+light-grey = #808080
+light-blue = #000099
+gold = #A89358
+orange = #FFA500
+
+//WIDTHS
+col-width = 650px
+
+body,
+input
+    font-family sans-bold
+    font-weight 100
+		color: dark-grey
+    text-rendering optimizeLegibility
+p
+	font-family sans-bold
+	font-size: 19px
+	max-width: col-width
+	line-height 1.4em
+	&.small
+		font-size 16px
+		line-height 1.2em
+
+ul 
+	max-width col-width
+	li
+		line-height 1.3em
+		
+		
+	
+#wrapper
+	width 100%
+	min-width 400px
+	margin 0 auto 200px auto
+
+#container
+	margin-top 10%
+	margin-bottom 200px
+
+
+header.main.bar.top
+	font-size 1.3em
+	position fixed
+	top 0
+	left 0
+	width 100%
+	padding 0
+	background-color dark-grey
+	z-index 1000
+
+	ul.nav
+		margin: .5em auto 0 auto
+		width 70%
+		max-width none
+		padding 0
+
+	.nav li
+		display inline-block
+		list-style none
+		margin 0 .5em .5em 0
+		color white
+
+	.nav li a:hover
+		color orange
+
+	.nav li.active a
+		color: orange
+
+	
+	a
+		color white
+		text-decoration none
+
+.slide
+	width 70%
+	margin 1em auto
+	min-width 400px
+	position relative
+
+	.background.graphic
+		position relative
+		width 100%
+		height 100%
+		z-index 0
+		iframe
+			z-index 0
+
+.aside
+	width 100%
+	position relative
+	.caption	
+		position absolute
+		right 40px
+		bottom 120px
+		padding .5em 2em
+		width 13em
+img.graph
+	width 100%
+	height auto
+
+
+h1.lead 
+	font-weight 400
+	font-size 2.5em
+	width: 100%
+	position absolute
+	left 0
+	top 0
+	background-size cover
+	background-repeat no-repeat
+	p
+		line-height 1.1em
+		font-size inherit
+		font-weight inherit
+		margin 5px
+		max-width none
+
+#container > h2
+	margin 1em 15%
+
+h2
+	font-size 2em
+
+h3
+	font-weight 100
+	overflow auto
+	margin-top 2em
+	p
+		font-size inherit
+
+form
+	display block
+	overflow hidden
+	margin-bottom 4em
+	dd, dt
+		font-family sans-bold
+		font-size 16px
+		margin .25em 1em .25em 0
+		float left
+	dt
+		clear left
+		width: 10em
+	input
+		padding-left .3em
+
+p.small.confirmation 
+	color gold
+
+
+	
+
+.blue
+	color light-blue
+.grey
+	color light-grey
+.gold
+	color gold
+.orange
+	color orange
+
+
+footer
+	width 70%
+	margin 1em auto
+	min-width 400px
+
+/***************
+SLIDE SPECIFIC
+***************/
+#arts
+	width 100%
+	min-height 700px
+	svg.graph
+		opacity .8
+		margin-top 220px	
+	
+a.download
+	display block
+	margin-left 15%
+
+.slide-3
+	font-size 18px
+.slide-5.aside
+	background-image url('../images/bfamfaphd.png')
+	background-repeat no-repeat
+	height: 300px
+.slide-11
+	ul dd
+		margin-bottom .5em
+
+
+@media (max-width: 945px)
+	h1
+		max-width 450px
+
+@media (max-width: 768px)
+	header.main.bar.top ul.nav
+		margin-left 15%
+		max-width none
+		width auto
+		overflow hidden
+		display block
+
+@media (max-width: 722px)
+	#container
+		margin-top 150px
+	header.main.bar.top ul.nav
+		margin-left 20px
+		margin-right 20px
+	p, h2, h3, form dl
+		margin-left 20px
+		margin-right 20px
+	form
+		dt, dl
+			float none
+			margin-bottom .2em
+
+@media (max-width: 480px)	
+
+	.slide-2 .caption
+		right auto
+		bottom 140px
+	#arts svg.graph
+		margin-top 400px
+	.slide-2 svg.ind-axis
+		bottom 60px
+	.slide-2 svg .axis g text
+		font-size 0
+	.slide-2 svg .axis g:nth-child(3n) text
+		font-size 8px
