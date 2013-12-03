@@ -1,0 +1,62 @@
+https://nces.ed.gov/ipeds/datacenter/InstitutionList.aspx 
+
+=====================================================================================
+
+Cookies with curl:
+
+http://ask.metafilter.com/18923/How-do-you-handle-authentication-via-cookie-with-CURL
+
+-------------------------------------------------------------------------------------
+
+If you mean the username and password are entered in a form on a login page, then cURL can "submit" that form like:
+
+curl -d "username=miniape&password=SeCrEt" http://whatever.com/login
+
+and if you want to store the cookie that comes back you do so by specifying a cookie file:
+
+curl -c cookies.txt -d "username=miniape&password=SeCrEt" http://whatever.com/login
+
+and to use those cookie in later requests you do:
+
+curl -b cookies.txt -d "username=miniape&password=SeCrEt" http://whatever.com/login
+
+or do both if you want to both send and receive cookies:
+
+curl -b cookies.txt -c cookies.txt -d "username=miniape&password=SeCrEt" http://whatever.com/login
+
+=====================================================================================
+Manually pulling data
+
+Go to IPEDS Data Center (http://nces.ed.gov/ipeds/datacenter/)
+-click create group statistics
+-click use provisional release data
+-click By Groups - EZ Group
+-click US only and degree granting
+-click search (should include total of 4904 institutions)
+
+-click search
+-click completions
+
+-e.g. If going to look at stats 2011-12...
+Click awards/degrees conferred by program (2010 CIP classification) - this is the first choice in list
+
+-click race/ethnicity (new) 2010-11 to current year
+-click 2011-12
+-click first major - Save choice
+-click CIP code - click + by visual and performing arts - click visual and performing arts, general (50.01) - save choice
+-click award level code - click Bachelor's degree. - save choice
+
+-click gran total men, grand total women
+-go down list and click options for men and women (do not select the ones with no gender attached) - do not click on the 'race unknown category'
+-click response status - click 2011-12
+-click ID # of parent institution-completions
+
+-click continue
+-click continue on next page which lists all the variables you chose
+-click N, Sum, Maximum (Mean already selected)
+-title table appropriately
+-click download
+-save and title appropriately
+-start over to do another data pull
+
+Note: maximum of 25 variable allowed for each data pull
