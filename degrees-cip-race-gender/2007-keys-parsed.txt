@@ -1,0 +1,54 @@
+Visual and Performing Arts, General|50.0101|289|0.12%
+Crafts/Craft Design, Folk Art and Artisanry|50.0201|33|0.01%
+Dance, General|50.0301|363|0.15%
+Ballet|50.0302|6|0.00%
+Dance, Other|50.0399|19|0.01%
+Design and Visual Communications, General|50.0401|334|0.14%
+Commercial and Advertising Art|50.0402|647|0.27%
+Industrial Design|50.0404|78|0.03%
+Commercial Photography|50.0406|155|0.06%
+Fashion/Apparel Design|50.0407|195|0.08%
+Interior Design|50.0408|537|0.22%
+Graphic Design|50.0409|658|0.27%
+Illustration|50.0410|69|0.03%
+Design and Applied Arts, Other|50.0499|99|0.04%
+Drama and Dramatics/Theatre Arts, General|50.0501|1,470|0.61%
+Technical Theatre/Theatre Design and Technology|50.0502|178|0.07%
+Playwriting and Screenwriting|50.0504|36|0.01%
+Theatre Literature, History and Criticism|50.0505|21|0.01%
+Acting|50.0506|88|0.04%
+Directing and Theatrical Production|50.0507|34|0.01%
+Theatre/Theatre Arts Management|50.0508|37|0.02%
+Dramatic/Theatre Arts and Stagecraft, Other|50.0599|81|0.03%
+Film/Cinema Studies|50.0601|220|0.09%
+Cinematography and Film/Video Production|50.0602|250|0.10%
+Photography|50.0605|299|0.12%
+Film/Video and Photographic Arts, Other|50.0699|74|0.03%
+Art/Art Studies, General|50.0701|1,295|0.54%
+Fine/Studio Arts, General|50.0702|874|0.36%
+Art History, Criticism and Conservation|50.0703|689|0.29%
+Arts Management|50.0704|135|0.06%
+Drawing|50.0705|83|0.03%
+Intermedia/Multimedia|50.0706|79|0.03%
+Painting|50.0708|118|0.05%
+Sculpture|50.0709|120|0.05%
+Printmaking|50.0710|69|0.03%
+Ceramic Arts and Ceramics|50.0711|95|0.04%
+Fiber, Textile and Weaving Arts|50.0712|36|0.01%
+Metal and Jewelry Arts|50.0713|59|0.02%
+Fine Arts and Art Studies, Other|50.0799|202|0.08%
+Music, General|50.0901|1,767|0.73%
+Music History, Literature, and Theory|50.0902|96|0.04%
+Music Performance, General|50.0903|770|0.32%
+Music Theory and Composition|50.0904|294|0.12%
+Musicology and Ethnomusicology|50.0905|55|0.02%
+Conducting|50.0906|61|0.03%
+Piano and Organ|50.0907|129|0.05%
+Voice and Opera|50.0908|141|0.06%
+Music Management and Merchandising|50.0909|176|0.07%
+Jazz/Jazz Studies|50.0910|68|0.03%
+Violin, Viola, Guitar and Other Stringed Instruments|50.0911|52|0.02%
+Music Pedagogy|50.0912|39|0.02%
+Music, Other|50.0999|196|0.08%
+Visual and Performing Arts, Other|50.9999|138|0.06%
+

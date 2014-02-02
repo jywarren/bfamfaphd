@@ -1,0 +1,6 @@
+
+1985 - no detailed CIP codes for subdepartments
+1987 - decimals begin, but no subdepartment codes
+1995-7 - cip codes appear in col 3 instead of 2, only during these years
+
+
