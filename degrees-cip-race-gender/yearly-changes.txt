@@ -2,5 +2,6 @@
 1985 - no detailed CIP codes for subdepartments
 1987 - decimals begin, but no subdepartment codes
 1995-7 - cip codes appear in col 3 instead of 2, only during these years
-
+2002 - keys are all caps for just this year: 'CRACE15', 'CRACE16'
+2008-12 - most codes change; men and women are now 'XCTOTALM', 'XCTOTALW' instead of 'crace15', 'crace16' and all are capitalized
 
